@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玩家排名追蹤</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>傳奇+ 玩家追蹤器</h1>
+
+    <!-- 表單：新增玩家 -->
+    <div id="player-form">
+        <input type="text" id="player-name" placeholder="輸入玩家名稱">
+        <button onclick="addPlayer()">新增玩家</button>
+    </div>
+
+    <!-- 玩家列表 -->
+    <div id="player-list">
+        <h2>關注的玩家：</h2>
+        <ul id="list"></ul>
+    </div>
+
+    <!-- 玩家分數和副本數據 -->
+    <div id="player-data">
+        <h2>玩家數據</h2>
+        <div id="data-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
